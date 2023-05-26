@@ -100,7 +100,6 @@ h1 {
 }
 
 .card-img {
-  border: 5px solid #84b3ff;
   border-radius: 10px;
   height: 150px;
   width: 150px;
@@ -149,10 +148,20 @@ h1 {
   padding: 50px;
   background-color: #3882F6;
   height: 20px;
-  width: 550px;
+  width: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 
+}
+
+.footer-container {
+  font-size: 13px;
+  background-color: #1F2937;
+  height: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
