@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+}
+.header-container, .super-hero {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+
+.header, .nav {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  width: 850px;
+  padding: 15px 0px;
+  margin: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1F2937;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+.nav {
+  color: #E5E7EB;
+  gap: 15px;
+}
+
+.hero-container {
+  width: 850px;
+  margin: 0 10%;
+  color: #F9FAF8;
+  gap: 60px;
+  display: flex;
+  background-color: #1F2937;
+  height: 380px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  text-align: center;
+  padding: 35px 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.sign {
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 25px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.bottom {
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 25px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 1px solid white;
+}
+
+.left-hero {
+  width: 400px;
+}
+
+.right-hero {
+  width: 300px;
+  background-color: white;
+}
+.card-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 35px;
+  height: 300px;
+}
+
+.card {
+  width: 150px;
+}
+
+.card-img {
+  border: 5px solid #84b3ff;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.quotebk {
+  background-color: rgb(220, 246, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  background-color: rgb(220, 246, 255);
+  height: 300px;
+  width:600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.thor {
+  align-self: self-end;
+  font-weight: bold;
+}
+
+.quote {
+  color: rgb(66, 75, 83);
+  font-size: 24px;
+  font-style: italic;
+}
+.action-bg {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-p, h3 {
+  color: white;
+}
+
+.action-container {
+  border-radius: 5px;
+  padding: 50px;
+  background-color: #3882F6;
+  height: 20px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+}
